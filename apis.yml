@@ -1,7 +1,29 @@
 aid: pairio
 name: Pairio
-description: Pairio is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Pairio is an AI-powered maintenance assistant for manufacturing and industrial
+  teams, built by Pairio GmbH in Munich, Germany and backed by Y Combinator.
+  Technicians capture voice, photos, and video on the shop floor, and Pairio
+  troubleshoots machine breakdowns, searches technical documentation and
+  maintenance history, identifies spare parts, generates structured maintenance
+  reports, and creates work instructions. It preserves expert knowledge across
+  shifts, sites, and teams to reduce mean time to repair (MTTR) and unplanned
+  downtime, integrating with common ERP, CMMS, EAM, and document-management
+  systems such as SAP, IFS, IBM Maximo, Oracle EAM, Hexagon, SharePoint, and
+  Outlook. Pairio is a consumer-facing mobile/web application and does not
+  currently publish a public developer API.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://pairio.com/
 url: https://raw.githubusercontent.com/api-evangelist/pairio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +31,43 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-founders:
+- Tim Zinkl
+- Matthias Wolf
+x-location: Munich, Germany
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Maintenance
+- Manufacturing
+- Industrial
+- Artificial Intelligence
+- Reliability
+- Field Service
+- CMMS
 apis: []
+common:
+- type: DomainSecurity
+  url: security/pairio-domain-security.yml
+- type: Website
+  url: https://pairio.com/
+- type: Blog
+  url: https://pairio.com/blog/
+- type: PrivacyPolicy
+  url: https://pairio.com/privacy/
+- type: LLMsTxt
+  url: llms/pairio-llms.txt
+- type: X-LinkedIn
+  url: https://www.linkedin.com/company/pairio-ai
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
