@@ -1,0 +1,27 @@
+# Front Door AI Index — pairio — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: pairio
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: pairio.com
+  final_host: pairio.com
+  ownership: own
+  owner: pairio
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 6
+  host_score: 6
+  density: 8.39
+  words: 715
+  tiers:
+    agentic: 1
+    core: 5
+    model: 0
+  ambiguous: 1
+  top_terms:
+    AI: 5
+    AI assistant: 1
+    smart: 1
